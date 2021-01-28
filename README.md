@@ -5,3 +5,5 @@
 未来可能支持：
 1.使用双四元数储存纹理动画，可减少一半显存占用。
 2.支持动画混合。
+
+https://github.com/polite1233/SkeletonBaker/blob/main/image/WX20210129-013908%402x.png
