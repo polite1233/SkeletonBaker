@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1348413574152251081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1348413574152251083}
+  - component: {fileID: 1348413574152251082}
+  m_Layer: 0
+  m_Name: AnimateManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1348413574152251083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348413574152251081}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.6478069, y: -1.9644477, z: -2.6243272}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1348413574152251082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348413574152251081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f264df1df0584c499c62f4579d653e1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lodDistances: 0f0000003200000064000000
+  fbxWithLod:
+  - {fileID: -927199367670048503, guid: 7a1f20559b2f8514c8838c3999f101b2, type: 3}
+  - {fileID: -927199367670048503, guid: 5456797d2e11b4647a7f822bbfde3b3d, type: 3}
+  clips:
+  - {fileID: 7572344613039948371, guid: 7a1f20559b2f8514c8838c3999f101b2, type: 3}
+  - {fileID: 8114531597553069840, guid: 7a1f20559b2f8514c8838c3999f101b2, type: 3}
+  - {fileID: 5494613016829204386, guid: 7a1f20559b2f8514c8838c3999f101b2, type: 3}
+  - {fileID: -624073235447596516, guid: 7a1f20559b2f8514c8838c3999f101b2, type: 3}
+  - {fileID: 6433067055057295287, guid: 7a1f20559b2f8514c8838c3999f101b2, type: 3}
+  - {fileID: -8752326157673405673, guid: 7a1f20559b2f8514c8838c3999f101b2, type: 3}
+  - {fileID: 4348485665485846014, guid: 7a1f20559b2f8514c8838c3999f101b2, type: 3}
+  - {fileID: 5539831331247536789, guid: 7a1f20559b2f8514c8838c3999f101b2, type: 3}
+  - {fileID: -2213203967234042762, guid: 7a1f20559b2f8514c8838c3999f101b2, type: 3}
+  - {fileID: 5874199474891123731, guid: 7a1f20559b2f8514c8838c3999f101b2, type: 3}
+  - {fileID: 6200578666267062213, guid: 7a1f20559b2f8514c8838c3999f101b2, type: 3}
+  - {fileID: -4490982102790085031, guid: 7a1f20559b2f8514c8838c3999f101b2, type: 3}
+  - {fileID: -3040043744712575759, guid: 7a1f20559b2f8514c8838c3999f101b2, type: 3}
+  - {fileID: 4849361718256333132, guid: 7a1f20559b2f8514c8838c3999f101b2, type: 3}
+  - {fileID: -115899371804562333, guid: 7a1f20559b2f8514c8838c3999f101b2, type: 3}
+  - {fileID: -3419257869308726280, guid: 7a1f20559b2f8514c8838c3999f101b2, type: 3}
+  frames: 24
+  matTemplate: {fileID: 2100000, guid: 3f76d43d222ba427aae698a6acd2777a, type: 2}
+  mainTexes:
+  - {fileID: 2800000, guid: 49b24ef5dddb5c442b32493dd7a29dda, type: 3}
+  - {fileID: 2800000, guid: 9b97386ca04fb0240a8a6dfe053f8258, type: 3}
+  normalTexes: []
+  metallicTexes: []
