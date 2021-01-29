@@ -1,4 +1,5 @@
 # SkeletonBaker
+GPU Skin
 烘焙骨骼动画成纹理，使用GPU instance特性渲染海量模型动画。
 可同时渲染10000+模型，1000w+面。
 可指定动画帧进行播放。
